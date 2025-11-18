@@ -12,7 +12,7 @@ public class InteritanceTester {
         Mother mom = new Mother();
         mom.setName("Brenda");
 
-        System.out.println();
+        System.out.println(mom.getName() + " is a " + mom.getGender());
     }
 
     public static void testSquareOverride(){
